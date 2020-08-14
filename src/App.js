@@ -3,7 +3,7 @@ import Bar from './components/Bar'
 
 function App() {
   return (
-    <div>
+    <div className="container my-5">
       <Bar />
     </div>
   );

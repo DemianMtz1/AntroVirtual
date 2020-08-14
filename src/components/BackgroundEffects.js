@@ -7,7 +7,7 @@ const Bar = () =>{
 
     return(
         <div>
-            <p>Efectos del bar</p>
+            
             
         </div>
     )
