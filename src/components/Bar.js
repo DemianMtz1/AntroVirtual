@@ -1,14 +1,17 @@
-import React, {useEffect} from 'react';
-import BackgroundEffects from './BackgroundEffects';
+import React, { useEffect } from 'react';
 
 
 // Consume la api rest
-const Bar = () =>{
+const Bar = () => {
 
-    return(
+    return (
         <div>
-            <p>Hola desde el bar</p>
-            <BackgroundEffects />
+            <div className="col-sm">
+                <p>Hola desde el bar</p>
+
+            </div>
+
+           
         </div>
     )
 }
