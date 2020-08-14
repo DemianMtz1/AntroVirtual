@@ -1,14 +1,16 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 
 
 
 // Consume la api rest
-const Bar = () =>{
+const Bar = () => {
 
-    return(
+    return (
         <div>
-            
-            
+            <h3 >Saludos desde el background effects</h3>
+            <form className="form-group">
+                <input type="range"></input>
+            </form>
         </div>
     )
 }
