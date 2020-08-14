@@ -1,7 +1,7 @@
 import React from 'react';
 import Bar from './components/Bar'
 import BackgroundEffects from './components/BackgroundEffects';
-
+import MusicPlayer from './components/MusicPlayer'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
 
           <div className="col-sm">
             <Bar />
+            <MusicPlayer/>
           </div>
           <div className="col-sm">
             <p>imagen</p>
