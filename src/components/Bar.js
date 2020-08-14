@@ -7,7 +7,7 @@ const Bar = () => {
     return (
         <div>
             <div className="col-sm">
-                <p>Hola desde el bar</p>
+                <p>Antro Digital</p>
 
             </div>
 
