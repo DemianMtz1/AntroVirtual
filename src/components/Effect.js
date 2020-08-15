@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const Effect = (props) => {
 
-    const [effectVolume, setEffectVolume] = useState({ volume: "5" });
+    const [effectVolume, setEffectVolume] = useState({ volume: ".5" });
     const [effectPlay, setEffectPlay] = useState({ play: false });
-    const [audio, setAudio] = useState(new Audio('http://streaming.tdiradio.com:8000/house.mp3'));
+    const [audio, setAudio] = useState(new Audio(props.sound));
 
     const handleVolume = (e) => {
         setEffectVolume({
@@ -12,6 +12,7 @@ const Effect = (props) => {
             [e.target.name]: e.target.value
         })
         console.log(effectVolume);
+        audio.volume = effectVolume.volume;
     }
 
     const onClickPlay = (e) => {
@@ -42,7 +43,7 @@ const Effect = (props) => {
                         <button name="play" onClick={onClickPlay}>Play</button>
                     </div>
                     <div className="col-4">
-                        <input type="range" name="volume" min="0" max="10" defaultValue={effectVolume.volume} step="1"
+                        <input type="range" name="volume" min="0" max="1" defaultValue={effectVolume.volume} step=".10"
                             onChange={handleVolume} />
                     </div>
                 </div>
