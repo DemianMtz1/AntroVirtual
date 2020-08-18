@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Effect = (props) => {
 
     const [effectVolume, setEffectVolume] = useState({ volume: ".5" });
-    const [effectPlay, setEffectPlay] = useState({ play: false });
+    const [effectPlay, setEffectPlay] = useState({ play: true });
     const [audio, setAudio] = useState(new Audio(props.sound));
 
     const handleVolume = (e) => {
