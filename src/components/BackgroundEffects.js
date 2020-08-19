@@ -16,7 +16,7 @@ const Bar = () => {
                 <Effect title="Rain on window" sound="http://streaming.tdiradio.com:8000/house.mp3" />
                 <Effect title="Night ambiance" sound="http://streaming.tdiradio.com:8000/house.mp3" />
                 <Effect title="Servering drinks" sound="http://streaming.tdiradio.com:8000/house.mp3" />
-                <Effect title="Street ambience" sound="http://streaming.tdiradio.com:8000/house.mp3" />
+            
             </div>
         </div>
     )
