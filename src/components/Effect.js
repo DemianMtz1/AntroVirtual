@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PlayCircleOutlined , PauseCircleOutlined } from '@ant-design/icons';
-import '../Styles/Effects.css'
+
+
 
 
 const Effect = ({title,sound}) => {
@@ -20,7 +21,6 @@ const Effect = ({title,sound}) => {
 
     const onClickPlay = (e) => {
         setEffectPlay({
-            ...effectPlay,
             [e.target.name]: (effectPlay.play === false) ? true : false
         })
         console.log(effectPlay,'effect play')
@@ -45,7 +45,8 @@ const Effect = ({title,sound}) => {
                 <div className="row justify-content-start">
                     <div className="col-">
                     </div>
-                        <button className='button' name="play" onClick={onClickPlay}>{(effectPlay.play === true) ? <PlayCircleOutlined /> : <PauseCircleOutlined /> }</button>
+                        <button className='btn btn-primary' name="play" onClick={onClickPlay}>{(effectPlay.play === true) ? 'Play': 'Pause' }</button>
+                        
                     <div className="col-4">
                         <input type="range" name="volume" min="0" max="1" defaultValue={effectVolume.volume} step=".10"
                             onChange={handleVolume} />

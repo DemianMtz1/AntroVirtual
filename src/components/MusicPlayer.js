@@ -1,13 +1,14 @@
 import React from "react";
 
-const MusicPlayer = () => {
+const MusicPlayer = ({playlist,djIg,djName}) => {
   return (
     <div>
+      <h1>Playlist by <a href={djIg}>{djName}</a></h1>
       <iframe
-        src="https://open.spotify.com/embed/playlist/2dAzhiFI3rcLJ87dcyIQmx"
+        src={playlist}
         width="300"
         height="380"
-        frameBorder="0"
+        frameBorder='0'
         allowtransparency="true"
         allow="encrypted-media"
       ></iframe>
