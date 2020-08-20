@@ -6,11 +6,11 @@ import './styles/App.css'
 
 function App() {
   return (
-    <div >
+    <div className='disco-container'>
       <div>
       <Bar />
-        <div className="row">
-          <div className="col-sm">
+        <div className="disco-content">
+          <div className='disco-playlist'>
             
             <MusicPlayer
               playlist="https://open.spotify.com/embed/playlist/0B95fPMM2fetTJDE2AoSlL"
@@ -18,10 +18,10 @@ function App() {
               djName="Djcucaracha"
             />
           </div>
-          <div className="col-sm">
+          <div className="disco-img">
             <p>imagen</p>
           </div>
-          <div className="col-sm">
+          <div className="disco-effects">
             <BackgroundEffects />
           </div>
         </div>
