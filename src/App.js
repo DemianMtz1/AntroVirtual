@@ -19,7 +19,7 @@ function App() {
             />
           </div>
           <div className="disco-img">
-            <p>imagen</p>
+          <iframe src="https://giphy.com/embed/jIRgYs2eJgM0M" width="326" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
           </div>
           <div className="disco-effects">
             <BackgroundEffects />
