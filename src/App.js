@@ -13,13 +13,13 @@ function App() {
           <div className='disco-playlist'>
             
             <MusicPlayer
-              playlist="https://open.spotify.com/embed/playlist/0B95fPMM2fetTJDE2AoSlL"
+              playlist="https://open.spotify.com/embed/artist/4PwlsrN0t5mLN0C827cbEU"
               djIg="https://www.instagram.com/angelvalle_/?hl=es-la"
-              djName="Djcucaracha"
+              djName="L'Impératrice"
             />
           </div>
           <div className="disco-img">
-          <iframe src="https://giphy.com/embed/jIRgYs2eJgM0M" width="326" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <iframe src="https://giphy.com/embed/l3q2xK6E4Ost3fWFi" width="300" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
           </div>
           <div className="disco-effects">
             <BackgroundEffects />
