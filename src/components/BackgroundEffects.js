@@ -1,21 +1,25 @@
 import React from 'react';
 import Effect from './Effect'
-
+import '../styles/Effects.css'
+import PeopleTalking from '../assets/BackgoundEfffects/people-talking.mp3';
+import Rain from '../assets/BackgoundEfffects/rainOnWindow.mp3';
+import  NightAmbience from '../assets/BackgoundEfffects/N-ambience.mp3'
+import BartenderWorking from '../assets/BackgoundEfffects/BartenderWorking.mp3'
+import ServingDrinks from '../assets/BackgoundEfffects/ServingDrinks.mp3'
 
 // Consume la api rest
 const Bar = () => {
 
     return (
         <div>
-            <h3 >Background effects</h3>
-            <div className="">
+            <h3 className='title-effects'>Background effects</h3>
+            <div>
 
-                <Effect title="Bartender working" sound="http://streaming.tdiradio.com:8000/house.mp3"/>
-                <Effect title="People talking" sound="http://streaming.tdiradio.com:8000/house.mp3" />
-                <Effect title="Full room" sound="http://streaming.tdiradio.com:8000/house.mp3" />
-                <Effect title="Rain on window" sound="http://streaming.tdiradio.com:8000/house.mp3" />
-                <Effect title="Night ambiance" sound="http://streaming.tdiradio.com:8000/house.mp3" />
-                <Effect title="Servering drinks" sound="http://streaming.tdiradio.com:8000/house.mp3" />
+                <Effect title="Bartender working" sound={BartenderWorking}/>
+                <Effect title="People talking" sound={PeopleTalking}/>
+                <Effect title="Rain on window" sound={Rain}/>
+                <Effect title="Night ambiance" sound={NightAmbience}/>
+                <Effect title="Servering drinks" sound={ServingDrinks}/>
 
             </div>
         </div>

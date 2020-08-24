@@ -6,13 +6,14 @@ const MusicPlayer = ({playlist,djIg,djName}) => {
   return (
     <div>
       <div className='playlist-about'>
-      <h1>Playlist by <a href={djIg}>{djName}</a></h1>
+      <h1>Playlist by <br/><a href={djIg}>{djName}</a></h1>
       </div>
       <div className='playlist'>
       <iframe
+        className='playlist'
         src={playlist}
-        width="300"
-        height="380"
+        width="250"
+        height="350"
         frameBorder='0'
         allowtransparency="true"
         allow="encrypted-media"

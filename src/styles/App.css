@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Orbitron', sans-serif;
     color: #ffffff;
 }
 
@@ -13,22 +13,24 @@ body{
 .disco-container{
     background: #000000;
     width: 98%;
-    height: 90%;
+    height: 95vh;
     margin: 0px auto;
     border: 0.5px solid rgba(253, 0, 63, 0.8);
+    border-radius: 5px;
     box-shadow: 0px 0px 20px rgb(253, 0, 84);
     margin-top: 30px;
     margin-bottom: 30px;
-    overflow: hidden;
-    min-height: 600px;
+    overflow: scroll;
+    
+
 }
 
 .disco-container a{
+    text-shadow: 1px 1px 20px rgb(253, 0, 84);;
     transition: all 300ms;
 }
 
 .disco-container a:hover{
-    text-shadow: 1px 1px 20px rgb(253, 0, 84);
     text-decoration: underline;
 }
 
@@ -59,9 +61,17 @@ body{
 
 .disco-playlist{
      margin-left: 35px;
+     margin-top: 50px;
 }
 
 .disco-effects{
-    margin-right: 35px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+
+.disco-img{
+    margin-top: 50px;
 }
 

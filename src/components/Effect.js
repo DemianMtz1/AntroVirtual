@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { PlayCircleOutlined, PauseCircleOutlined } from '@ant-design/icons';
 import '../styles/Effects.css'
 
 
