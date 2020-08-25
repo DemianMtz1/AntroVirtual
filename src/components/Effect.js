@@ -26,6 +26,7 @@ const Effect = ({ title, sound }) => {
 
         if (effectPlay.play === true) {
             console.log('play');
+            audio.loop = true;
             audio.play();
         } else {
             console.log("pause");
