@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c32fc042.chunk.css",
-    "main.js": "/static/js/main.90880150.chunk.js",
-    "main.js.map": "/static/js/main.90880150.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.79145da8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.79145da8.js.map",
-    "static/js/2.fbea48fb.chunk.js": "/static/js/2.fbea48fb.chunk.js",
-    "static/js/2.fbea48fb.chunk.js.map": "/static/js/2.fbea48fb.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.000a26fe7eea86dfb0653a8ef95805f1.js": "/precache-manifest.000a26fe7eea86dfb0653a8ef95805f1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c32fc042.chunk.css.map": "/static/css/main.c32fc042.chunk.css.map",
-    "static/js/2.fbea48fb.chunk.js.LICENSE.txt": "/static/js/2.fbea48fb.chunk.js.LICENSE.txt",
-    "static/media/BartenderWorking.mp3": "/static/media/BartenderWorking.16c89642.mp3",
-    "static/media/N-ambience.mp3": "/static/media/N-ambience.fded0d3b.mp3",
-    "static/media/ServingDrinks.mp3": "/static/media/ServingDrinks.deb56f98.mp3",
-    "static/media/people-talking.mp3": "/static/media/people-talking.6f295211.mp3",
-    "static/media/rainOnWindow.mp3": "/static/media/rainOnWindow.bd335210.mp3"
+    "main.css": "/AntroVirtual/static/css/main.069b809a.chunk.css",
+    "main.js": "/AntroVirtual/static/js/main.543c033e.chunk.js",
+    "main.js.map": "/AntroVirtual/static/js/main.543c033e.chunk.js.map",
+    "runtime-main.js": "/AntroVirtual/static/js/runtime-main.3fad7408.js",
+    "runtime-main.js.map": "/AntroVirtual/static/js/runtime-main.3fad7408.js.map",
+    "static/js/2.adcfc389.chunk.js": "/AntroVirtual/static/js/2.adcfc389.chunk.js",
+    "static/js/2.adcfc389.chunk.js.map": "/AntroVirtual/static/js/2.adcfc389.chunk.js.map",
+    "index.html": "/AntroVirtual/index.html",
+    "precache-manifest.ec47e19fd64b722b47d2e8f437dde981.js": "/AntroVirtual/precache-manifest.ec47e19fd64b722b47d2e8f437dde981.js",
+    "service-worker.js": "/AntroVirtual/service-worker.js",
+    "static/css/main.069b809a.chunk.css.map": "/AntroVirtual/static/css/main.069b809a.chunk.css.map",
+    "static/js/2.adcfc389.chunk.js.LICENSE.txt": "/AntroVirtual/static/js/2.adcfc389.chunk.js.LICENSE.txt",
+    "static/media/BartenderWorking.mp3": "/AntroVirtual/static/media/BartenderWorking.16c89642.mp3",
+    "static/media/N-ambience.mp3": "/AntroVirtual/static/media/N-ambience.fded0d3b.mp3",
+    "static/media/ServingDrinks.mp3": "/AntroVirtual/static/media/ServingDrinks.deb56f98.mp3",
+    "static/media/people-talking.mp3": "/AntroVirtual/static/media/people-talking.6f295211.mp3",
+    "static/media/rainOnWindow.mp3": "/AntroVirtual/static/media/rainOnWindow.bd335210.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.79145da8.js",
-    "static/js/2.fbea48fb.chunk.js",
-    "static/css/main.c32fc042.chunk.css",
-    "static/js/main.90880150.chunk.js"
+    "static/js/runtime-main.3fad7408.js",
+    "static/js/2.adcfc389.chunk.js",
+    "static/css/main.069b809a.chunk.css",
+    "static/js/main.543c033e.chunk.js"
   ]
 }
