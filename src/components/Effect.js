@@ -20,7 +20,8 @@ const Effect = ({ title, sound }) => {
 
     const onClickPlay = (e) => {
         setEffectPlay({
-            [e.target.name]: (effectPlay.play === false) ? true : false
+
+            [e.target.name] : (effectPlay.play === false) ? true : false
         })
         console.log(effectPlay, 'effect play')
 
@@ -33,7 +34,7 @@ const Effect = ({ title, sound }) => {
             audio.pause();
         }
     }
-
+    
 
 
     return (
